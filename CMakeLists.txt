@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(acpi VERSION "${OURS_VERSION}" LANGUAGES CXX)
+project(ours_config VERSION "${OURS_VERSION}" LANGUAGES CXX)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
@@ -10,12 +10,6 @@ INTERFACE
     "include"
 )
 
-add_executable(ours_config_test)
-target_sources(ours_config_test 
-PRIVATE 
-    "test/literal.cpp"
-)
-target_link_libraries(ours_config_test
-PRIVATE
-    "ours::config"
-)
+if(BUILD_TESTING AND EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/test/CMakeLists.txt")
+    add_subdirectory(test)
+endif()

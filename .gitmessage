@@ -1,0 +1,30 @@
+# <type>(<scope>): <subject>
+#
+# type:
+#   feat      - new feature
+#   fix       - bug fix
+#   refactor  - code refactor (no behavior change)
+#   perf      - performance improvement
+#   style     - formatting, naming, comments (no logic change)
+#   test      - tests
+#   docs      - documentation
+#   build     - build system / toolchain
+#   ci        - CI configuration
+#   chore     - maintenance / misc
+#
+# scope:
+#   Optional. Module or subsystem name, e.g. mem, sched, arch(x86), tool(codegen)
+#
+# subject:
+#   - imperative mood (e.g. "add", "fix", "remove")
+#   - no trailing period
+#   - <= 72 characters
+#
+# body:
+#   - explain WHY, not HOW
+#   - <= 256 characters
+#
+# footer:
+#   - Fixes: #issue
+#   - BREAKING CHANGE: description
+#   - <= 256 characters

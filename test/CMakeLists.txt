@@ -1,0 +1,9 @@
+add_executable(ours_config_test)
+target_sources(ours_config_test 
+PRIVATE 
+    "test/literal.cpp"
+)
+target_link_libraries(ours_config_test
+PRIVATE
+    "ours::config"
+)
