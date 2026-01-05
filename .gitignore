@@ -39,3 +39,8 @@
 
 # debug information files
 *.dwo
+
+.cache
+out
+CMakePresets.json
+compile_commands.json
