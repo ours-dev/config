@@ -5,7 +5,7 @@ cc_library(
     hdrs = [
         "include/ours/config.hpp",
         "include/ours/config/annotates.hpp",
-        "include/ours/config/lang-items.hpp",
+        "include/ours/config/langitems.hpp",
         "include/ours/config/literals.hpp",
         "include/ours/config/types.hpp",
     ],
