@@ -44,3 +44,8 @@
 out
 CMakePresets.json
 compile_commands.json
+
+bazel-bin
+bazel-config
+bazel-out
+bazel-testlogs
