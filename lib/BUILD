@@ -9,6 +9,5 @@ cc_library(
         "include/ours/config/literals.hpp",
         "include/ours/config/types.hpp",
     ],
-    include
     visibility = ["//visibility:public"],
 )

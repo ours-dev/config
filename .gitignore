@@ -49,3 +49,4 @@ bazel-bin
 bazel-config
 bazel-out
 bazel-testlogs
+MODULE.bazel.lock
